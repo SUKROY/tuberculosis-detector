@@ -1,0 +1,5 @@
+tflite-runtime
+flask
+numpy
+pillow
+gunicorn
