@@ -2,9 +2,4 @@ flask
 numpy
 pillow
 gunicorn
-
-# Windows: pakai tensorflow 
-tensorflow ; platform_system=="Windows"
-
-# Linux (Railway): pakai tflite-runtime
-tflite-runtime @ https://github.com/google-coral/pycoral/releases/download/release-frogfish/tflite_runtime-2.14.0-cp310-cp310-manylinux_2_17_x86_64.whl ; platform_system!="Windows"
+tensorflow-cpu==2.13.0
